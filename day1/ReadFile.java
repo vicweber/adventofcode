@@ -9,7 +9,7 @@ public class ReadFile {
     public static ArrayList<String> getValues() {
         FileInputStream stream = null;
         try {
-            stream = new FileInputStream("src/input.txt");
+            stream = new FileInputStream("day1/input.txt");
         } catch (FileNotFoundException e) {
             e.printStackTrace();
         }
