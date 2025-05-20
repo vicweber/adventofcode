@@ -24,6 +24,6 @@ jobs:
 
     - name: Run Postman Collection
       run: |
-        newman run /Users/victoria/adventofcode/day1/New Collection.postman_collection.json
+        newman run ./day1/New Collection.postman_collection.json
         # If you also use environment variables:
         # newman run ./my-collection.postman_collection.json --environment ./my-environment.postman_environment.json
